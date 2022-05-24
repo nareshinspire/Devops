@@ -1,0 +1,887 @@
+## Test 
+```
+nares@DESKTOP-RAMIUG3 MINGW64 /c/Users
+$ ls -ltr
+total 29
+-rw-r--r-- 1 nares 197609 174 Dec  7  2019  desktop.ini
+lrwxrwxrwx 1 nares 197609  14 Dec  7  2019 'All Users' -> /c/ProgramData/
+lrwxrwxrwx 1 nares 197609  16 Dec  7  2019 'Default User' -> /c/Users/Default/
+drwxr-xr-x 1 nares 197609   0 Aug 26  2020  Default/
+drwxr-xr-x 1 nares 197609   0 Aug 26  2020  Public/
+drwxr-xr-x 1 nares 197609   0 Jan  5  2021  defaultuser100001/
+drwxr-xr-x 1 nares 197609   0 Apr 11  2021  defaultuser100000/
+drwxr-xr-x 1 nares 197609   0 Apr 11  2021  defaultuser100000.DESKTOP-RAMIUG3/
+drwxr-xr-x 1 nares 197609   0 May 24 15:47  nares/
+
+nares@DESKTOP-RAMIUG3 MINGW64 /c/Users
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 /c/Users
+$ cd nares/
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~
+$ ls -ltr
+total 15854
+drwxr-xr-x 1 nares 197609        0 May 31  2020  MicrosoftEdgeBackups/
+drwxr-xr-x 1 nares 197609        0 Jun 27  2020 'VirtualBox VMs'/
+lrwxrwxrwx 1 nares 197609       55 Aug 26  2020  SendTo -> /c/Users/nares/AppData/Roaming/Microsoft/Windows/SendTo/
+lrwxrwxrwx 1 nares 197609       55 Aug 26  2020  Recent -> /c/Users/nares/AppData/Roaming/Microsoft/Windows/Recent/
+lrwxrwxrwx 1 nares 197609       66 Aug 26  2020  PrintHood -> '/c/Users/nares/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+lrwxrwxrwx 1 nares 197609       66 Aug 26  2020  NetHood -> '/c/Users/nares/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+lrwxrwxrwx 1 nares 197609       24 Aug 26  2020 'My Documents' -> /c/Users/nares/Documents/
+lrwxrwxrwx 1 nares 197609       30 Aug 26  2020 'Application Data' -> /c/Users/nares/AppData/Roaming/
+-rw-r--r-- 1 nares 197609  1703936 Aug 26  2020  ntuser.dat.LOG2
+-rw-r--r-- 1 nares 197609  2555904 Aug 26  2020  ntuser.dat.LOG1
+lrwxrwxrwx 1 nares 197609       58 Aug 26  2020  Templates -> /c/Users/nares/AppData/Roaming/Microsoft/Windows/Templates/
+lrwxrwxrwx 1 nares 197609       59 Aug 26  2020 'Start Menu' -> '/c/Users/nares/AppData/Roaming/Microsoft/Windows/Start Menu'/
+lrwxrwxrwx 1 nares 197609       28 Aug 26  2020 'Local Settings' -> /c/Users/nares/AppData/Local/
+lrwxrwxrwx 1 nares 197609       58 Aug 26  2020  Cookies -> /c/Users/nares/AppData/Local/Microsoft/Windows/INetCookies/
+-rw-r--r-- 1 nares 197609   524288 Aug 26  2020  NTUSER.DAT{5d3ad127-e764-11ea-8187-f460e7247eec}.TMContainer00000000000000000002.regtrans-ms
+-rw-r--r-- 1 nares 197609   524288 Aug 26  2020  NTUSER.DAT{5d3ad127-e764-11ea-8187-f460e7247eec}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 nares 197609    65536 Aug 26  2020  NTUSER.DAT{5d3ad127-e764-11ea-8187-f460e7247eec}.TM.blf
+drwxr-xr-x 1 nares 197609        0 Aug 26  2020  AppData/
+-rw-r--r-- 1 nares 197609       20 Aug 26  2020  ntuser.ini
+drwxr-xr-x 1 nares 197609        0 Aug 26  2020 '3D Objects'/
+drwxr-xr-x 1 nares 197609        0 Aug 26  2020  Favorites/
+drwxr-xr-x 1 nares 197609        0 Aug 26  2020  Contacts/
+drwxr-xr-x 1 nares 197609        0 Aug 26  2020  Searches/
+drwxr-xr-x 1 nares 197609        0 Aug 26  2020  Music/
+drwxr-xr-x 1 nares 197609        0 Aug 26  2020 'Saved Games'/
+drwxr-xr-x 1 nares 197609        0 Aug 26  2020  Links/
+drwxr-xr-x 1 nares 197609        0 May 30  2021 'Tech M'/
+-rw-r--r-- 1 nares 197609     3607 Aug  7  2021  win
+drwxr-xr-x 1 nares 197609        0 Aug  9  2021  OneDrive/
+-rw-r--r-- 1 nares 197609      151 Aug 12  2021  BullseyeCoverageError.txt
+drwxr-xr-x 1 nares 197609        0 Mar 17 10:39  Videos/
+drwxr-xr-x 1 nares 197609        0 May  6 16:18  git/
+drwxr-xr-x 1 nares 197609        0 May 14 04:27  Documents/
+drwxr-xr-x 1 nares 197609        0 May 14 04:28  hsperfdata_nares/
+drwxr-xr-x 1 nares 197609        0 May 23 12:44  Desktop/
+drwxr-xr-x 1 nares 197609        0 May 24 09:24  Downloads/
+-rw-r--r-- 1 nares 197609 10485760 May 24 13:05  NTUSER.DAT
+drwxr-xr-x 1 nares 197609        0 May 24 15:28  IntelGraphicsProfiles/
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~
+$ $HOME
+bash: /c/Users/nares: Is a directory
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~
+$ cd .ssh
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh
+$ ls -ltr
+total 7
+-rw-r--r-- 1 nares 197609   95 May 20 15:03 known_hosts.old
+-rw-r--r-- 1 nares 197609  270 May 20 15:05 known_hosts
+-rw-r--r-- 1 nares 197609 2610 May 24 10:02 id_rsa
+-rw-r--r-- 1 nares 197609  575 May 24 10:02 id_rsa.pub
+drwxr-xr-x 1 nares 197609    0 May 24 10:07 Devops/
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh
+$ cd Devops/
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (main)
+$ ls -ltr
+total 1
+-rw-r--r-- 1 nares 197609 29 May 24 10:07 README.md
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (main)
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (main)
+$ pwd
+/c/Users/nares/.ssh/Devops
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (main)
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (main)
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (main)
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (main)
+$
+
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (main)
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (main)
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (main)
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (main)
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (main)
+$
+
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (main)
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (main)
+$ git --version
+git version 2.36.1.windows.1
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (main)
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (main)
+$ git clone git@github.com:nareshinspire/Devops.git
+Cloning into 'Devops'...
+The authenticity of host 'github.com (13.234.176.102)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (main)
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Devops/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (main)
+$ git  branch
+* main
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (main)
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (main)
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (main)
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (main)
+$ git branch
+* main
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (main)
+$ git chekout -b 'testwith-samba'
+git: 'chekout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (main)
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (main)
+$ git checkout -b 'testwith-samba'
+Switched to a new branch 'testwith-samba'
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ git bracnh
+git: 'bracnh' is not a git command. See 'git --help'.
+
+The most similar command is
+        branch
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ git branch
+  main
+* testwith-samba
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ git branch main
+fatal: a branch named 'main' already exists
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (main)
+$ git branch
+* main
+  testwith-samba
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (main)
+$ git branch
+* main
+  testwith-samba
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (main)
+$ git checkout testwith-samba
+Switched to branch 'testwith-samba'
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ git branch
+  main
+* testwith-samba
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ vi 24-May-2022
+
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ ls -ltr
+total 2
+-rw-r--r-- 1 nares 197609 29 May 24 10:07 README.md
+drwxr-xr-x 1 nares 197609  0 May 24 15:55 Devops/
+-rw-r--r-- 1 nares 197609 27 May 24 15:59 24-May-2022
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ git branch
+  main
+* testwith-samba
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ git status
+On branch testwith-samba
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        24-May-2022
+        Devops/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ git add 24-May-2022
+warning: LF will be replaced by CRLF in 24-May-2022.
+The file will have its original line endings in your working directory
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ git status
+On branch testwith-samba
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   24-May-2022
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Devops/
+
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ git add .
+warning: adding embedded git repository: Devops
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> Devops
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached Devops
+hint:
+hint: See "git help submodule" for more information.
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ git status
+On branch testwith-samba
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   24-May-2022
+        new file:   Devops
+
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ git commit -m "testing devops"
+[testwith-samba 30804a0] testing devops
+ 2 files changed, 2 insertions(+)
+ create mode 100644 24-May-2022
+ create mode 160000 Devops
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ git branch
+  main
+* testwith-samba
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ git push origin testwith-samba
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 355 bytes | 355.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'testwith-samba' on GitHub by visiting:
+remote:      https://github.com/nareshinspire/Devops/pull/new/testwith-samba
+remote:
+To https://github.com/nareshinspire/Devops.git
+ * [new branch]      testwith-samba -> testwith-samba
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$
+
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$
+
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$
+
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ vi 24-May-2022
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ git status
+On branch testwith-samba
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   24-May-2022
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ vi 24-May-2022^C
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ git add 24-May-2022
+warning: LF will be replaced by CRLF in 24-May-2022.
+The file will have its original line endings in your working directory
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$
+
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ git status
+On branch testwith-samba
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   24-May-2022
+
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ git restore --staged 24-May-2022
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ git status
+On branch testwith-samba
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   24-May-2022
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ git add 24-May-2022
+warning: LF will be replaced by CRLF in 24-May-2022.
+The file will have its original line endings in your working directory
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ git status
+On branch testwith-samba
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   24-May-2022
+
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ git commit -m "second commit "
+[testwith-samba 59aa7c5] second commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ git push orgin testwith-samba
+fatal: 'orgin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ git branch
+  main
+* testwith-samba
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ git push origin testwith-samba
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 369 bytes | 369.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/nareshinspire/Devops.git
+   30804a0..59aa7c5  testwith-samba -> testwith-samba
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$
+
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$
+
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$
+
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ ls -ltr
+total 2
+-rw-r--r-- 1 nares 197609 29 May 24 10:07 README.md
+drwxr-xr-x 1 nares 197609  0 May 24 15:55 Devops/
+-rw-r--r-- 1 nares 197609 49 May 24 16:10 24-May-2022
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$
+
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ vi 24-May-2022
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$
+
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$
+
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ git status
+On branch testwith-samba
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   24-May-2022
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ git add 24-May-2022
+warning: LF will be replaced by CRLF in 24-May-2022.
+The file will have its original line endings in your working directory
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ git status
+On branch testwith-samba
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   24-May-2022
+
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ git commit -m " these is the 3rd "
+[testwith-samba 0e38984]  these is the 3rd
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ git branch
+  main
+* testwith-samba
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ git push origin testwith-samba
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 389 bytes | 194.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/nareshinspire/Devops.git
+   59aa7c5..0e38984  testwith-samba -> testwith-samba
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ git push origin main
+To https://github.com/nareshinspire/Devops.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/nareshinspire/Devops.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ git merge main
+Already up to date.
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh/Devops (testwith-samba)
+$ cd ..
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/.ssh
+$ cd ..
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~
+$ pwd
+/c/Users/nares
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~
+$ git clone git@github.com:nareshinspire/Devops.git
+Cloning into 'Devops'...
+remote: Enumerating objects: 17, done.
+remote: Counting objects: 100% (17/17), done.
+remote: Compressing objects: 100% (13/13), done.
+remote: Total 17 (delta 1), reused 8 (delta 0), pack-reused 0
+Receiving objects: 100% (17/17), done.
+Resolving deltas: 100% (1/1), done.
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~
+$ git branch
+fatal: not a git repository (or any of the parent directories): .git
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~
+$ git branch
+fatal: not a git repository (or any of the parent directories): .git
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~
+$ git branch
+fatal: not a git repository (or any of the parent directories): .git
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~
+$ ls -ltr
+total 16938
+drwxr-xr-x 1 nares 197609        0 May 31  2020  MicrosoftEdgeBackups/
+drwxr-xr-x 1 nares 197609        0 Jun 27  2020 'VirtualBox VMs'/
+lrwxrwxrwx 1 nares 197609       55 Aug 26  2020  SendTo -> /c/Users/nares/AppData/Roaming/Microsoft/Windows/SendTo/
+lrwxrwxrwx 1 nares 197609       55 Aug 26  2020  Recent -> /c/Users/nares/AppData/Roaming/Microsoft/Windows/Recent/
+lrwxrwxrwx 1 nares 197609       66 Aug 26  2020  PrintHood -> '/c/Users/nares/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+lrwxrwxrwx 1 nares 197609       66 Aug 26  2020  NetHood -> '/c/Users/nares/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+lrwxrwxrwx 1 nares 197609       24 Aug 26  2020 'My Documents' -> /c/Users/nares/Documents/
+lrwxrwxrwx 1 nares 197609       30 Aug 26  2020 'Application Data' -> /c/Users/nares/AppData/Roaming/
+-rw-r--r-- 1 nares 197609  2813952 Aug 26  2020  ntuser.dat.LOG2
+-rw-r--r-- 1 nares 197609  2555904 Aug 26  2020  ntuser.dat.LOG1
+lrwxrwxrwx 1 nares 197609       58 Aug 26  2020  Templates -> /c/Users/nares/AppData/Roaming/Microsoft/Windows/Templates/
+lrwxrwxrwx 1 nares 197609       59 Aug 26  2020 'Start Menu' -> '/c/Users/nares/AppData/Roaming/Microsoft/Windows/Start Menu'/
+lrwxrwxrwx 1 nares 197609       28 Aug 26  2020 'Local Settings' -> /c/Users/nares/AppData/Local/
+lrwxrwxrwx 1 nares 197609       58 Aug 26  2020  Cookies -> /c/Users/nares/AppData/Local/Microsoft/Windows/INetCookies/
+-rw-r--r-- 1 nares 197609   524288 Aug 26  2020  NTUSER.DAT{5d3ad127-e764-11ea-8187-f460e7247eec}.TMContainer00000000000000000002.regtrans-ms
+-rw-r--r-- 1 nares 197609   524288 Aug 26  2020  NTUSER.DAT{5d3ad127-e764-11ea-8187-f460e7247eec}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 nares 197609    65536 Aug 26  2020  NTUSER.DAT{5d3ad127-e764-11ea-8187-f460e7247eec}.TM.blf
+drwxr-xr-x 1 nares 197609        0 Aug 26  2020  AppData/
+-rw-r--r-- 1 nares 197609       20 Aug 26  2020  ntuser.ini
+drwxr-xr-x 1 nares 197609        0 Aug 26  2020 '3D Objects'/
+drwxr-xr-x 1 nares 197609        0 Aug 26  2020  Favorites/
+drwxr-xr-x 1 nares 197609        0 Aug 26  2020  Contacts/
+drwxr-xr-x 1 nares 197609        0 Aug 26  2020  Searches/
+drwxr-xr-x 1 nares 197609        0 Aug 26  2020  Music/
+drwxr-xr-x 1 nares 197609        0 Aug 26  2020 'Saved Games'/
+drwxr-xr-x 1 nares 197609        0 Aug 26  2020  Links/
+drwxr-xr-x 1 nares 197609        0 May 30  2021 'Tech M'/
+-rw-r--r-- 1 nares 197609     3607 Aug  7  2021  win
+drwxr-xr-x 1 nares 197609        0 Aug  9  2021  OneDrive/
+-rw-r--r-- 1 nares 197609      151 Aug 12  2021  BullseyeCoverageError.txt
+drwxr-xr-x 1 nares 197609        0 Mar 17 10:39  Videos/
+drwxr-xr-x 1 nares 197609        0 May  6 16:18  git/
+drwxr-xr-x 1 nares 197609        0 May 14 04:27  Documents/
+drwxr-xr-x 1 nares 197609        0 May 14 04:28  hsperfdata_nares/
+drwxr-xr-x 1 nares 197609        0 May 23 12:44  Desktop/
+-rw-r--r-- 1 nares 197609 10485760 May 24 13:05  NTUSER.DAT
+drwxr-xr-x 1 nares 197609        0 May 24 15:28  IntelGraphicsProfiles/
+drwxr-xr-x 1 nares 197609        0 May 24 17:04  Downloads/
+drwxr-xr-x 1 nares 197609        0 May 24 17:06  Devops/
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~
+$ cd Devops/
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (main)
+$ ls -ltr
+total 2
+drwxr-xr-x 1 nares 197609   0 May 24 17:06 Devops/
+-rw-r--r-- 1 nares 197609 115 May 24 17:06 24-May-2022
+-rw-r--r-- 1 nares 197609  29 May 24 17:06 README.md
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (main)
+$ git clone git@github.com:nareshinspire/Devops.git
+Cloning into 'Devops'...
+remote: Enumerating objects: 17, done.
+remote: Counting objects: 100% (17/17), done.
+remote: Compressing objects: 100% (13/13), done.
+remote: Total 17 (delta 1), reused 8 (delta 0), pack-reused 0
+Receiving objects: 100% (17/17), done.
+Resolving deltas: 100% (1/1), done.
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Devops (new commits)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (main)
+$ git branch
+* main
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (main)
+$ git chekout -b "second branch "
+git: 'chekout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (main)
+$ git chekout -b "second branch"
+git: 'chekout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (main)
+$ git checkout -b "second branch"
+fatal: 'second branch' is not a valid branch name
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (main)
+$ git branch
+* main
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (main)
+$ git checkout -b "secondbranch"
+Switched to a new branch 'secondbranch'
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (secondbranch)
+$ git branch
+  main
+* secondbranch
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (secondbranch)
+$ git checkout
+M       Devops
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (secondbranch)
+$ git branch
+  main
+* secondbranch
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (secondbranch)
+$ git checkout main
+Switched to branch 'main'
+M       Devops
+Your branch is up to date with 'origin/main'.
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (main)
+$ git branch
+* main
+  secondbranch
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (main)
+$ git checkout secondbranch
+Switched to branch 'secondbranch'
+M       Devops
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (secondbranch)
+$ git status
+On branch secondbranch
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Devops (new commits)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (secondbranch)
+$ vi secondfile
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (secondbranch)
+$ ls -ltr
+total 3
+-rw-r--r-- 1 nares 197609 115 May 24 17:06 24-May-2022
+-rw-r--r-- 1 nares 197609  29 May 24 17:06 README.md
+drwxr-xr-x 1 nares 197609   0 May 24 17:08 Devops/
+-rw-r--r-- 1 nares 197609  30 May 24 17:12 secondfile
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (secondbranch)
+$ git add secondfile
+warning: LF will be replaced by CRLF in secondfile.
+The file will have its original line endings in your working directory
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (secondbranch)
+$ ls -ltr
+total 3
+-rw-r--r-- 1 nares 197609 115 May 24 17:06 24-May-2022
+-rw-r--r-- 1 nares 197609  29 May 24 17:06 README.md
+drwxr-xr-x 1 nares 197609   0 May 24 17:08 Devops/
+-rw-r--r-- 1 nares 197609  30 May 24 17:12 secondfile
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (secondbranch)
+$ cat secondfile
+these is the second file for
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (secondbranch)
+$ git commit "second file"
+error: pathspec 'second file' did not match any file(s) known to git
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (secondbranch)
+$ git commit "secondfile"
+warning: LF will be replaced by CRLF in secondfile.
+The file will have its original line endings in your working directory
+Aborting commit due to empty commit message.
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (secondbranch)
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (secondbranch)
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (secondbranch)
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (secondbranch)
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (secondbranch)
+$
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (secondbranch)
+$ pwd
+/c/Users/nares/Devops
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (secondbranch)
+$ ls -ltr
+total 3
+-rw-r--r-- 1 nares 197609 115 May 24 17:06 24-May-2022
+-rw-r--r-- 1 nares 197609  29 May 24 17:06 README.md
+drwxr-xr-x 1 nares 197609   0 May 24 17:08 Devops/
+-rw-r--r-- 1 nares 197609  30 May 24 17:12 secondfile
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (secondbranch)
+$ git branch
+  main
+* secondbranch
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (secondbranch)
+$ ls -ltr
+total 3
+-rw-r--r-- 1 nares 197609 115 May 24 17:06 24-May-2022
+-rw-r--r-- 1 nares 197609  29 May 24 17:06 README.md
+drwxr-xr-x 1 nares 197609   0 May 24 17:08 Devops/
+-rw-r--r-- 1 nares 197609  30 May 24 17:12 secondfile
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (secondbranch)
+$ git status
+On branch secondbranch
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   secondfile
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Devops (new commits)
+
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (secondbranch)
+$ git commit -m "second"
+[secondbranch 96fbf9d] second
+ 1 file changed, 1 insertion(+)
+ create mode 100644 secondfile
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (secondbranch)
+$ git push origin secondbranch
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 308 bytes | 308.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'secondbranch' on GitHub by visiting:
+remote:      https://github.com/nareshinspire/Devops/pull/new/secondbranch
+remote:
+To github.com:nareshinspire/Devops.git
+ * [new branch]      secondbranch -> secondbranch
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (secondbranch)
+$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> secondbranch
+
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (secondbranch)
+$ pwd
+/c/Users/nares/Devops
+
+nares@DESKTOP-RAMIUG3 MINGW64 ~/Devops (secondbranch)
+$
+
+
+
+
+
+
