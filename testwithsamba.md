@@ -4,4 +4,6 @@ This is the testing one
 ```
 - Naresh
 
-[amazon] (https://aws.amazon.com/ec2/pricing/)
+[amazon](https://aws.amazon.com/ec2/pricing/)
+
+ [Duck Duck Go](https://duckduckgo.com)
